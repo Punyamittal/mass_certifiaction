@@ -15,8 +15,8 @@ output_dir = 'certificates'
 os.makedirs(output_dir, exist_ok=True)
 
 # Email credentials
-EMAIL_ADDRESS = 'hackfinity.team@gmail.com'
-EMAIL_PASSWORD = 'ywqb tarj grtq kgwu'
+EMAIL_ADDRESS = ' insert your own email'
+EMAIL_PASSWORD = ' start 2 factor authentication for the provided email and then get your app password'
 
 def generate_and_send_cert(first, last, recipient_email):
     full_name = f"{first} {last}"
@@ -77,4 +77,3 @@ Team HackHub
 # Only send to first 10 for testing
 for _, row in data.iterrows():
     generate_and_send_cert(row['First Name'], row['Last Name'], row['Email'])
-
