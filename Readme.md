@@ -76,3 +76,4 @@ Edit
 ---
 
 Let me know if you'd like me to write the `generate_certificates.py` script too.
+# ysoc_invite
